@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="back">
+
+    <div id="login-box" class="box">
+        <div class="left" id="login-div">
+            <h1>Login</h1>
+            <input type="email" class="text-field" id="login-email" name="login-email" placeholder="E-mail" required>
+            <input type="password" class="text-field" id="login-password" name="login-password" placeholder="Password"
+                required>
+            <button id="login-btn" class="btnstyle">Login</button><br>
+            <button id="reg-btn" class="an-btn">Dont have an account? REGISTER</button>
+        </div>
+        <div class="register" id="register-div">
+            <h1>Register</h1>
+            <input type="email" class="text-field" id="register-email" name="register-email" placeholder="E-mail"
+                required>
+            <input type="password" class="text-field" id="register-password" name="register-password"
+                placeholder="Password" required>
+            <button id="register-btn" class="btnstyle">Register</button><br>
+            <button id="log-btn" class="an-btn">Have an account? LOGIN</button>
+        </div>
+        <div id="result-box">
+            <h3 id="result"></h3>
+            <button id="log-out-btn" class="btnstyle">LOGOUT</button>
+        </div>
+    </div>
+    <div id="or" class="Center">Or</div>
+
+    <div id="right" class="right">
+        <div class="icon1">
+            <button class="bton">log in with Facebook</button>
+            <a href="https://Facebook.com"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        </div>
+        <div class="icon2">
+            <button class="bton">log in with Google</button>
+            <a href="https://Google.com"><i class="fa-brands fa-google fa-beat fa-2xl"></i></a>
+        </div>
+        <div class="icon3">
+            <button class="bton">log in with Github</button>
+            <a href="https://github.com"><i class="fa-brands fa-github icon fa-2x"></i></a>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
